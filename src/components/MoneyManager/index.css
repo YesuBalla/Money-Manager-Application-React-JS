@@ -1,0 +1,123 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.money-manager {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.welcome-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 20px;
+  border-radius: 9px;
+}
+.welcome-name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.welcome-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-left: 50px;
+  font-weight: 500;
+}
+.welcome-highlighted-text {
+  color: #0b69ff;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+.add-transaction-container {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #cbd5e1;
+  border-radius: 9px;
+  padding: 20px;
+  min-width: 40%;
+  margin-right: 10%;
+}
+.add-transaction-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+}
+.transaction-input-container {
+  display: flex;
+  flex-direction: column;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #cbd5e1;
+  border-radius: 9px;
+  width: 55%;
+  padding: 20px;
+}
+.history-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 30px;
+}
+.history-table-container {
+  list-style-type: none;
+  padding: 0px;
+  border: solid 1px #cbd5e1;
+  margin: 0px;
+}
+.history-title-row {
+  display: flex;
+  border-bottom: solid 1px #cbd5e1;
+}
+.column-name {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 18px;
+  width: 24%;
+  margin: 12px;
+}
+.label-text {
+  color: #334155;
+  font-weight: bold;
+  font-family: 'Roboto';
+  opacity: 0.3;
+  margin-top: 15px;
+  font-size: 13px;
+}
+.input-element {
+  padding: 8px;
+  outline: none;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  font-weight: 500;
+}
+.add-button {
+  color: #ffffff;
+  padding: 8px;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #0b69ff;
+  align-self: flex-start;
+  margin-top: 15px;
+  border-radius: 6px;
+  width: 15%;
+}
